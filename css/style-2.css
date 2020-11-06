@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.container .city {
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  position: relative;
+}
+
+#bologna {
+  background-image: url(https://www.suiteweb.it/datastore/uploads/572/900_0/14939804549e095fde865a4e76abe02476f5787ecb.jpg);
+  background-position: bottom;
+}
+
+#barcellona {
+  background-image: url(https://cdn-media.italiani.it/site-barcellona/2018/05/cinque-motivi-per-vivere-a-barcellona-4-1000x600.jpg);
+  background-position: right;
+}
+
+#melbourne {
+  background-image: url(https://www.jacobs.com/sites/default/files/styles/1070xh/public/2019-10/Melbourne_HERO.jpg?itok=DHooW7aC);
+  background-position: bottom
+
+}
+
+.city .layover {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+
+}
+
+.city:hover .layover {
+  background-color: rgba(0, 0, 0, 0);
+}
+
+h2 {
+  font-size: 50px;
+  color: white;
+  text-shadow: 5px 5px rgb(47, 51, 59);
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
