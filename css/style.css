@@ -4,8 +4,12 @@
   box-sizing: border-box;
 }
 
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
 .container {
-  width: 300px;
+  width: 600px;
   height: 900px;
   background-color: green;
   margin: auto;
@@ -13,16 +17,42 @@
 
 .container .city {
   width: 100%;
-  height: 33.33333%;
-  background-color: red;
-  border: 2px solid black;
+  height: 425px;
+  /* background-color: red;
+  border: 2px solid black; */
+  position: relative;
 }
 
-.container .city #container-bologna {
+#bologna {
   background-image: url(https://www.suiteweb.it/datastore/uploads/572/900_0/14939804549e095fde865a4e76abe02476f5787ecb.jpg);
-  height: 100%;
 }
 
-.container .city img {
-  background-size: cover;
+#barcellona {
+  background-image: url(https://cdn-media.italiani.it/site-barcellona/2018/05/cinque-motivi-per-vivere-a-barcellona-4-1000x600.jpg);
+  background-position: right;
+}
+
+#melbourne {
+  background-image: url(https://www.jacobs.com/sites/default/files/styles/1070xh/public/2019-10/Melbourne_HERO.jpg?itok=DHooW7aC);
+  background-position: bottom
+
+}
+
+.city .layover {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.city:hover .layover {
+  background-color: rgba(0, 0, 0, 0);
+}
+
+h2 {
+  font-size: 50px;
+  color: white;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
 }
