@@ -17,3 +17,12 @@
   background-color: red;
   border: 2px solid black;
 }
+
+.container .city #container-bologna {
+  background-image: url(https://www.suiteweb.it/datastore/uploads/572/900_0/14939804549e095fde865a4e76abe02476f5787ecb.jpg);
+  height: 100%;
+}
+
+.container .city img {
+  background-size: cover;
+}
